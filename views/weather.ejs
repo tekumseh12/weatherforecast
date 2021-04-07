@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title> Weather app </title>
+<meta name = "viewport" content="width=device-width, initial-scale=1.0>
+<meta http-equiv="refresh" content="30">
+</head>
+<body>
+<form action="" method="post">
+	<div>Zadajte mesto</div>
+	<input type="text" name="city"> 
+	<input type="submit" value="Vyhladajte"> 
+</form>
+
+
+<% if( weather !== null){ %>
+	<p><%= weather %></p>
+<% } %>
+<% if( error !== null){ %>
+	<p><%= error %></p>
+<% } %>
+</body>
+</html
